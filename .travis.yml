@@ -1,0 +1,12 @@
+dist: xenial
+language: python
+cache: pip
+sudo: required
+services:
+- docker
+
+before_script:
+- docker build -t builder .
+
+script:
+- docker run --rm -v $PWD/dist:/dist builder
