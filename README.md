@@ -1,6 +1,8 @@
 Debian 10 Zeroc Ice Python 3 Builder
 ====================================
 
+[![Actions Status](https://github.com/ome/zeroc-ice-debian10/workflows/Build/badge.svg)](https://github.com/ome/zeroc-ice-debian10/actions)
+
 Builds Zeroc Ice wheel for Debian 10.
 Ice 3.6 is built from source and a wheel is also created.
 

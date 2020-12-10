@@ -3,7 +3,7 @@
 set -eu
 
 ICE_VERSION=${1:-"3.6.5"}
-BUILD=${TRAVIS_BRANCH:-dev}
+BUILD=${BRANCH_NAME:-dev}
 TARGET_NAME=ice-$ICE_VERSION-$BUILD
 
 # Build ice cpp from source
